@@ -1,30 +1,39 @@
 body {
+  background-color: gainsboro;
+  font-family: system-ui, sans-serif;
   text-align: center;
-background-color: lightgrey;}
+  margin: 0;
+  padding-top: 20px;
+}
+
+h1,
+h2 {
+  margin: 10px 0;
+}
 
 .Game {
-  display: grid;
-  grid-template-columns: repeat(3, 120px);
-  gap: 5px;
-  justify-content: center;
+  width: 350px;
   margin: 20px auto;
 }
 
 .Box {
   width: 100px;
   height: 100px;
+  display: inline-block;
   border: 2px solid black;
-  font-size: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
+  font-size: 64px;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: top;
+  background-color: white;
+  margin: 5px 0;
 }
 
-#main-message {
-  color: red;
-}
-#reset {
-  margin-top: 20px;
+button {
+  margin: 10px;
   padding: 10px 20px;
+  font-size: 16px;
+  background-color: white;
+  border: 2px solid black;
+  cursor: pointer;
 }
