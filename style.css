@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+background-color: lightgrey;}
+
+.Game {
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  gap: 5px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.Box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#main-message {
+  color: red;
+}
