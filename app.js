@@ -89,4 +89,4 @@ document.getElementById("reset").addEventListener("click", function () {
 
   currentPlayer = "X";
   gameOver = false;
-  moveCount = 0;})
+  moveCount = 0;});
