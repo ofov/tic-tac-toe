@@ -24,3 +24,7 @@ background-color: lightgrey;}
 #main-message {
   color: red;
 }
+#reset {
+  margin-top: 20px;
+  padding: 10px 20px;
+}

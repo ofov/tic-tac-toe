@@ -81,3 +81,12 @@ moveCount = moveCount + 1;
     document.getElementById("turn").textContent = "Player 1 turn";
   }
 }
+document.getElementById("reset").addEventListener("click", function () {
+  for (let i = 0; i < boxes.length; i++) {
+    boxes[i].textContent = "";
+  }
+  document.getElementById("turn").textContent = "Player 1 turn";
+
+  currentPlayer = "X";
+  gameOver = false;
+  moveCount = 0;})
